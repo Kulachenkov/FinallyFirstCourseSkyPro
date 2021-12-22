@@ -4,7 +4,6 @@ public class EmployeeBook {
 
     private Employee[] employee = new Employee[10];
 
-
     public void employeeList(){
         for (Employee employee : employee) {
             if(employee != null ) {
